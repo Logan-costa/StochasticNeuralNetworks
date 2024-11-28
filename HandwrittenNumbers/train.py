@@ -20,4 +20,4 @@ model.compile(optimizer = "adam", loss = "sparse_categorical_crossentropy", metr
 
 model.fit(x_train, y_train, epochs = 3)
 
-model.save("HandwrittenNumbers/model.keras")
+model.save("./model.keras")
